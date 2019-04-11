@@ -8,7 +8,7 @@
  * \return int Retorna 1 si se pudo o retorna 0 si no se pudo
  *
  */
-int getStringLetras(char mensaje[], char imput[]);
+int getStringPalabras(char mensaje[], char imput[]);
 
 int getStringNumeros(char mensaje[], int imput[]);
 

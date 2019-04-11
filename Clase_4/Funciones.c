@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "Funciones.h"
 
-int getStringLetras(char mensaje[], char imput[])
+int getStringPalabras(char mensaje[], char imput[])
 {
     char aux[50];
     int retorno;
@@ -17,13 +17,22 @@ int getStringLetras(char mensaje[], char imput[])
         }
         else
         {
-            if(aux[i] < 'a' && oalabrai>'z')
+            if(aux[i] < 'a' && aux[i] > 'z')
             {
+                retorno=0;
             }
             else
             {
-                if(palabra i 'a' && palabra i > 'z')
+                if(aux[i] < 'A' && aux[i] > 'Z')
+                {
+                    retorno=0;
+                }
             }
+        }
+        if(aux[i] == ' ')
+        {
+            imput[i]=aux[i];
+            retorno=1;
         }
     }
     return retorno;

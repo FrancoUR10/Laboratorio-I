@@ -15,9 +15,19 @@ int main()
     int i;
     for(i=0;i<CANTIDAD_ALUMNOS;i++)
     {
+        /*
         if(CANTIDAD_ALUMNOS != -1)
         {
             printf("\nNombre: %s Apellido: %s Edad: %d Nota: %d\n",nombre[i],apellido[i],edad[i],nota[i]);
+        }
+        */
+        if(CANTIDAD_ALUMNOS != 1)
+        {
+            getStringPalabras("Ingrese una palabra: \n",nombre[i]);
+        }
+        else
+        {
+            printf("No se puede ingresar numeros");
         }
     }
 
