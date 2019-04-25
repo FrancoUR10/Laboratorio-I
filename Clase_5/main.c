@@ -11,9 +11,13 @@ int main()
     //unProducto=pedirProducto();
     //mostrarProducto(unProducto);
 
-    eProducto arrayProductos[TAM];
-    cargarArrayDeProductos(arrayProductos,TAM);
-    mostrarArrayDeProductos(arrayProductos,TAM);
+    //eProducto arrayProductos[TAM];
+    //cargarArrayDeProductos(arrayProductos,TAM);
+    //mostrarArrayDeProductos(arrayProductos,TAM);
+
+    eProducto array[TAM]={{"a","s","a","w",5},{"b","d","a","w",3},{"c","s","a","w",8}};
+
+    mostrarArrayDeProductos(array,TAM);
 
 
 
@@ -23,6 +27,7 @@ int main()
 
 
 
-
+    system("pause");
+    system("cls");
     return 0;
 }

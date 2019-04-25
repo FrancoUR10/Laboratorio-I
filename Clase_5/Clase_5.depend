@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1556199184 source:c:\users\alumno\desktop\clase_5\main.c
+1556202247 source:c:\users\alumno\desktop\clase_5\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Producto.h"
 
-1556198651 c:\users\alumno\desktop\clase_5\producto.h
+1556204328 c:\users\alumno\desktop\clase_5\producto.h
 
-1556199395 source:c:\users\alumno\desktop\clase_5\producto.c
+1556202179 source:c:\users\alumno\desktop\clase_5\producto.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
