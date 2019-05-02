@@ -18,3 +18,17 @@
 	<string.h>
 	"Producto.h"
 
+1556805072 source:c:\users\alumno\desktop\clase_6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+
+1556808586 c:\users\alumno\desktop\clase_6\producto.h
+
+1556805072 source:c:\users\alumno\desktop\clase_6\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+

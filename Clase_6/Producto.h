@@ -26,7 +26,11 @@ typedef struct
 void hardcodearProductos(eProducto lista[], int tam);
 void inicializarProveedor(eProveedor lista[], int tam);
 void inicializarProductos(eProducto lista[], int tam);
-eProducto mostrarProducto(void);
+void mostrarProducto(eProducto unProducto);
 void cargarArray(eProducto lista[], int tam);
+void mostrarArrayProductosConProveedor(eProducto listaProducto[], int tamProducto, eProveedor listaProveedor[], int tamProveedor);
+void mostrarArrayProveedorConSusProductos(eProveedor listaProveedores[], int tamProveedor, eProducto listaProductos, int tamProducto);
+void mostrarArrayProductosElMaximo(eProducto listaProducto[], int tamProducto, eProveedor listaProveedor[], int tamProveedor);
+void mostrarArrayProductosOrdenado(eProducto listaProducto[], int tamProducto, eProveedor listaProveedor[], int tamProveedor, int desc);
 
 #endif // PRODUCTO_H_INCLUDED
